@@ -10,7 +10,7 @@
     "start": "lwr serve --mode prod",
     "start:compat": "lwr serve --mode compat",
     "start:prod-compat": "lwr serve --mode prod-compat",
-    "build": "lwr build"
+    "build": "lwr build  --mode prod"
   },
   "dependencies": {
     "docker": "^1.0.0",
